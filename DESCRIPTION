@@ -1,0 +1,17 @@
+Package: SC19075
+Type: Package
+Title: Survival Analysis using logrank test permutation test
+Version: 1.0
+Date: 2020-01-01
+Author: YuLiang Jiang
+Maintainer: YuLiang Jiang <ustc666jyl@mail.ustc.edu.cn>
+Description: The aml (boot) data contains estimates of the times to remission for two groups of patients with acute myelogenous leukaemia (AML). One group received maintenance chemotherapy treament and the other group did not. This R package perform the log-rank test using the large-sample approximation and the permutation test. The log-rank test is used to test whether the survival distributions of the two groups are equal. we use a function to test whether the survival distributions of the two groups are equal in the aml (boot) data.
+License: GPL (>= 2)
+Imports: Rcpp (>= 0.12.16), microbenchmark, knitr, rmarkdown,survival,boot,stats
+LinkingTo: Rcpp
+RoxygenNote: 7.0.2
+VignetteBuilder: knitr
+Encoding: UTF-8
+URL: https://github.com/SC19075/SC19075
+BugReports: https://github.com/SC19075/SC19075/issues
+Suggests: knitr, rmarkdown 
